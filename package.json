@@ -1,0 +1,27 @@
+{
+  "name": "pcat",
+  "version": "1.0.0",
+  "description": "PCAT Photo App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/senagulkorkmaz/PCAT.git"
+  },
+  "keywords": [
+    "photo",
+    "app",
+    "camera"
+  ],
+  "author": "Senagül Korkmaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/senagulkorkmaz/PCAT/issues"
+  },
+  "homepage": "https://github.com/senagulkorkmaz/PCAT#readme",
+  "devDependencies": {
+    "prettier": "3.1.0"
+  }
+}
