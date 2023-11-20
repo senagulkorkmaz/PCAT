@@ -1,0 +1,20 @@
+*Proje oluşturmak için için -> npm init
+
+
+MONGODB Bilgileri:
+*db.photos.find() -> photos tablosundaki verileri görmek için
+*db.photos.updateOne( { title:"Photo 1"}, { $set: {qty:222 }}) -> title:"Photo 1" olan datanın
+    qty:222 yap demek
+*db.photos.find( { qty: { $lt: 200 } } ).limit(2) -> photos tablosunda qty değeri 200'den küçük olan
+    dataları getir. 2 tane getir.
+*db.photos.find({title:"Photo 1"}) -> photos tablosunda title:"Photo 1" olan datayı getir.
+*db.photos.insertMany([ { title: "Photo 2", description: "Photo 2 description", qty: 50 }, 
+                        { title: "Photo 3", description: "Photo 3 description", qty: 150 }
+                      ] 
+                     ) -> photos tablosuna data eklemek için kullanılır.
+* show collections -> Hangi veritabanında olduğunu gösterir.
+* show dbs -> Olan databaseleri gösterir.
+* db.photos.deleteOne( { qty : {$lt:500}}) -> photos tablosundaki qty 500 den küçük olan ilk data değerini sil.
+* use pcat-test-db -> pcat-test-db veritabanı gitmek.
+* db.dropDatabase() -> Bulunduğu veritabanını silmek.
+* quit() -> Terminalden çıkmak için 

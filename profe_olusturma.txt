@@ -1,1 +1,0 @@
-*Proje oluşturmak için için -> npm init
