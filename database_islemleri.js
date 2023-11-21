@@ -83,17 +83,17 @@ const id = "655b0c70b33e1b7b7665d50d";
 // })
 
 //YENİ SÜRÜM
-const deletePhoto = async () => {
-    try {
-        const deletedPhoto = await Photo.findByIdAndDelete(id);
-        if (!deletedPhoto) {
-            console.log('Fotoğraf bulunamadı.');
-        }
-        else {
-            console.log('Siliniş Fotoğraf:', deletedPhoto);
-        }
-    }
-    catch (error) { console.error('Hata:', error); }
-};
+// const deletePhoto = async () => {
+//     try {
+//         const deletedPhoto = await Photo.findByIdAndDelete(id);
+//         if (!deletedPhoto) {
+//             console.log('Fotoğraf bulunamadı.');
+//         }
+//         else {
+//             console.log('Siliniş Fotoğraf:', deletedPhoto);
+//         }
+//     }
+//     catch (error) { console.error('Hata:', error); }
+// };
 
-deletePhoto();
+// deletePhoto();
